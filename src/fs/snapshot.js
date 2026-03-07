@@ -43,7 +43,7 @@ const snapshot = async () => {
   if (!workspaceStats.isDirectory()) {
    throw new Error("FS operation failed");
   }
- } catch (error) {
+ } catch {
   throw new Error("FS operation failed");
  }
 
