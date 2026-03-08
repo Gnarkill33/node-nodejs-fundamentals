@@ -3,7 +3,7 @@ import { stdin, stdout } from "node:process";
 import { Transform } from "node:stream";
 
 /* ATTN:
-To check this function please use the following script: 
+If the original script doesn't show proper results, please try the following script: 
 "streams:filter": "printf 'hello\\nworld\\ntest' | node src/streams/filter.js --pattern test",
 because the original script may not work properly for your system
 */
